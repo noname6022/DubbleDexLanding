@@ -78,14 +78,14 @@ export const Tokenomics = () => {
           <div className='SecondZoneLineContainer'>
           <div className='SecondZoneFirstBlock'>
             <div>
-              <h2>Dubble DEX<br/>
+              <h2 className='DubbleDexTreasuryTitle'>Dubble DEX<br/>
              Treasury</h2> 
              
              </div>
              <hr/>
              
-             <div><h3>Investment Treasury </h3></div>
-             <div><p>The treasury where all $DUB collateral is held.<br/>
+             <div><h3 className='InvestmentTreasuryTitle'>Investment Treasury </h3></div>
+             <div><p className='InvestmentTreasuryParagraph'>The treasury where all $DUB collateral is held.<br/>
               The more that is contributed to this treasury,<br/>
                the higher the $DUB yield is for all $DUB<br/>
                 holders and the more “insurance” is in place<br/>
@@ -94,9 +94,9 @@ export const Tokenomics = () => {
 
           <div className='SecondZoneSecondBlock'>
           <div>
-            <h3>Sustainment Treasury</h3>
+            <h3 className='SustainmentTreasuryTitle'>Sustainment Treasury</h3>
              </div>
-             <div><p>Fund aimed at enhancing the value and<br/>
+             <div><p className='SustainmentTreasuryParagraph'>Fund aimed at enhancing the value and<br/>
               functionality of $DUB and $DUBBL.<br/>
                Further information on this treasury can<br/>
                 be found at the specified location</p></div>

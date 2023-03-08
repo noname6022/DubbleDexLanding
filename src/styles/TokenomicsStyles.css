@@ -132,7 +132,7 @@
 .FirstZoneFirstBlockBtn{
     text-decoration: none;
 
-    color: #FFF;
+    
     font-family: 'Prompt', sans-serif;
     font-weight: 600;
     width: 18vw;
@@ -144,7 +144,8 @@
     margin-left: 5.3vw;
     font-size: 0.83vw;
     user-select: none;
-    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed, #D9D9D9, #D9D9D9, #D9D9D9, #D9D9D9);
+    background-image: linear-gradient(to right, #D9D9D9, #D9D9D9,  #D9D9D9, #D9D9D9, #3f86ed,#04befe, #4481eb,#25aae1);
+    color: #939191;
     background-size: 253% 155%;
     moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
@@ -154,12 +155,12 @@
 
 .FirstZoneFirstBlockBtn:hover {
     background-position: 100% 170%;
-    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed, #D9D9D9, #D9D9D9, #D9D9D9, #D9D9D9);
+    background-image: linear-gradient(to right,#D9D9D9, #D9D9D9, #D9D9D9, #D9D9D9,#3f86ed,#04befe, #4481eb,#25aae1 );
     moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    color: #939191;
+    color: #FFF;
 }
 
 
@@ -272,7 +273,7 @@ background: linear-gradient(90deg, rgba(98,161,193,1) 6%, rgba(41,112,175,1) 47%
     align-items: end;
     grid-template-rows: 22.2vmin 1.3vmin 8vmin 13.7vmin;
 }
-.SecondZoneFirstBlock h2{
+.DubbleDexTreasuryTitle{
     font-size: 3.6vw;
     line-height: 9.7vmin;
     font-family: 'Oxanium', cursive;
@@ -289,14 +290,14 @@ background: linear-gradient(90deg, rgba(98,161,193,1) 6%, rgba(41,112,175,1) 47%
     margin-left: 2.4vw;
 }
 
-.SecondZoneFirstBlock p{
+.InvestmentTreasuryParagraph{
     font-size: 1.04vw;
     margin: 0;
     margin-left: 2.8vw;
     line-height: 2.6vmin;
 }
 
-.SecondZoneFirstBlock h3{
+.InvestmentTreasuryTitle{
     font-size: 2.2vw;
     margin-left: 2.6vw;
     user-select: none;
@@ -319,14 +320,14 @@ background: linear-gradient(90deg, rgba(98,161,193,1) 6%, rgba(41,112,175,1) 47%
 
 }
 
-.SecondZoneSecondBlock h3{
+.SustainmentTreasuryTitle{
     font-size: 2.2vw;
     margin-top: 3.4vmin;
     margin-left: 2.4vw;
     user-select: none;
 }
 
-.SecondZoneSecondBlock p{
+.SustainmentTreasuryParagraph{
     font-size: 1.04vw;
     margin: 0;
     margin-left: 2.7vw;
