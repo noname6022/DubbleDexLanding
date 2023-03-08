@@ -1,0 +1,35 @@
+.SocialContainer{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 4.3vw 4vw 4vw;
+    align-items: center;
+    transition: all .3s;
+    user-select: none;
+}
+
+
+.DiscordIcon{
+width: 3vw;
+    height: 5vh;
+    transition: all .3s;
+}
+
+.TwitterIcon{
+    width: 3vw;
+    height: 4vh;
+    transition: all .3s;
+}
+
+.MediumIcon{
+    width: 3vw;
+    height: 4.3vh;
+    transition: all .3s;
+}
+
+.SocialContainer img:hover{
+    filter: invert(83%) sepia(11%) saturate(1326%) hue-rotate(87deg) brightness(110%);
+}
+
+.DisableSocialIcon img:hover{
+    filter: none;
+}

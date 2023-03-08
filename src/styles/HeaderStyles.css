@@ -1,0 +1,180 @@
+.HeaderContainer{
+    display: grid;
+    grid-template-columns: 54.7vw 11.8vw 11.8vw 12vw;
+    align-items: start;
+    position: relative;    
+    top: 8.9vmin;
+    width: fit-content;
+    left: 5.1vw;
+    height: fit-content;
+    user-select: none;
+}
+
+.LogoStyles{
+    width: 9.57vw;
+    height: 4vh;
+
+}
+.LogoLink{
+    height: fit-content;
+    display: grid;
+    width: fit-content;
+}
+
+.HeaderLinkStyle{
+    background-color: #E6E9E8;
+    text-decoration: none;
+    font-size: 0.9vw;
+    color: #565454;
+    display: grid;
+    grid-template-columns: 1.5vw 2.1vw;
+    height: 4.6vmin;
+    width: 11.2vw;
+    border-radius: 1.1vmin;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0vw;
+    border: #E6E9E8 solid 0.1vmin;
+    align-content: center;
+    transition: all .2s;
+    
+}
+
+ .Communityblock{
+    grid-template-columns: 2.1vw 5.78vw;
+
+}
+
+.HeaderLinkStyle:hover{
+    border: #79CE96 solid 0.1vmin;
+    background-color: #79CE96;
+}
+
+.DocsIconStyle{
+width: 1.6vw;
+    height: 2.7vh;
+}
+
+
+
+.SpanLink{
+    margin-top: 0.3vmin;
+    
+}
+
+.ButtonAndLinkDiv{
+display: grid;
+}
+.LaunchpadIconStyle{
+    width: 2vw;
+    height: 3vh;
+}
+
+.buttonZero{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.HeaderLinkLaunchPadStyle{
+    background-color: #E6E9E8;
+    text-decoration: none;
+    font-size: 0.9vw;
+    color: #565454;
+    display: grid;
+   grid-template-columns: 1.3vw 5.23vw;
+
+    height: 4.6vmin;
+    width: 11.2vw;
+    border-radius: 1.1vmin;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0vw;
+ border: #E6E9E8 solid 0.1vmin;    
+    align-content: center;
+    transition: all .2s;
+    font-family: 'Prompt', sans-serif;
+    
+}
+.HeaderLinkLaunchPadStyle:hover{
+       
+    background-color: #79CE96;
+    border: #79CE96 solid 0.1vmin;
+}
+
+.HeaderLinkTokenomicStyle{
+    background-color: #E6E9E8;
+    text-decoration: none;
+    font-size: 0.9vw;
+    color: #565454;
+    display: grid;
+    grid-template-columns: 2vw 4.5vw;
+
+    height: 4.6vmin;
+    width: 11.2vw;
+    border-radius: 1.1vmin;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0vw;
+ border: #E6E9E8 solid 0.1vmin;    
+    align-content: center;
+    transition: all .2s;
+    font-family: 'Prompt', sans-serif;
+}
+
+.HeaderLinkTokenomicStyle:hover{
+       
+    background-color: #79CE96;
+    border: #79CE96 solid 0.1vmin;
+}
+
+.TokenomicIconStyle{
+    width: 2vw;
+    height: 3vh;
+}
+
+.HomeLinkBtn{
+    position: absolute;
+    top: 8.9vmin;
+    left: 48vw;
+    display: grid;
+    grid-template-columns: 1.8vw 2.2vw;
+    align-items: center;
+    align-content: center;
+    user-select: none;
+}
+
+.HomeLinkBtn span{
+margin-top: 0.57vmin;
+}
+
+.HomeIcon{
+    width: 1.7vw;
+    height: 3vh;
+}
+
+/*Styles for disabling buttons*/
+.DisabledLink{
+    filter: contrast(0.88);
+    grid-template-columns: 2vw 6.5vw !important;
+    cursor: default;
+}
+.DisabledLink:hover{
+    background-color: #E6E9E8;
+    border: #E6E9E8 solid 0.1vmin;  
+}
+
+.DisabledIcon{
+    filter: contrast(0.47);
+    margin-left: 0.1vw;
+}
+.DisabledSpan{
+    
+    filter: contrast(0.47);
+}

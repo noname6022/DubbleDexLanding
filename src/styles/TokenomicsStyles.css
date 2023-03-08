@@ -1,0 +1,675 @@
+.TokenomicsWrapper{
+    display: grid;
+    justify-items: start;
+    justify-content: start;
+    grid-template-rows: 69vmin 75vmin 115vmin 20vmin 4vmin;
+}
+
+.FirstZoneLineContainer{
+    display: grid;
+    grid-template-columns: 59vw 35vw;
+    column-gap: 0.8vw;
+}
+
+.FirstZoneFirstBlock{
+    background: rgb(255 255 255 / 18%);
+    display: grid;
+    background-size: 100% 100%;
+    position: relative;
+    left: 5vw;
+    align-items: end;
+    grid-template-rows: 34vmin 12vmin 10vmin;
+    border-radius: 2vh;
+    width: 54vw;
+    
+}
+
+.OilSquare{
+    position: absolute;
+    top: 4vmin;
+    left: 21vw;
+    z-index: -1;
+    filter: blur(3.2vw);
+    width: 18vw;
+    height: 25vmin;
+    animation: OilSquareAnimation 4.5s infinite;
+}
+
+@keyframes OilSquareAnimation {
+  0% {
+    rotate: 33deg;
+    scale: 0.8;
+  }
+  50% {
+    rotate: 0deg;
+    scale: 1;
+  }
+  100%{
+    rotate: 33deg;
+    scale: 0.8;
+  }
+}
+
+.lightblueSquare{
+    position: absolute;
+    top: 34vmin;
+    left: 6vw;
+    z-index: -1;
+    filter: blur(3.2vw);
+    width: 16vw;
+    height: 35vmin;
+    animation: LightSquareAnimation 4s infinite;
+}
+
+@keyframes LightSquareAnimation {
+  0% {
+    rotate: 42deg;
+    scale: 0.8;
+  }
+  50% {
+    rotate: 0deg;
+    scale: 1;
+  }
+  100%{
+    rotate: 42deg;
+    scale: 0.8;
+  }
+}
+
+.PinkSquare{
+    position: absolute;
+    top: 35vmin;
+    left: 29vw;
+    z-index: -1;
+    filter: blur(3.2vw);
+    width: 23vw;
+    height: 30vmin;
+    animation: PinkSquareAnimation 4s infinite;
+}
+
+@keyframes PinkSquareAnimation {
+  0% {
+    rotate: -42deg;
+    scale: 0.9;
+  }
+  50% {
+    rotate: 0deg;
+    scale: 1;
+  }
+  100%{
+    rotate: -42deg;
+    scale: 0.9;
+  }
+}
+
+.FirstZoneFirstBlockTitle h1{
+    font-size: 4vw;
+    font-family: 'Oxanium', cursive;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -0.1vw;
+    line-height: 9.6vmin;
+    margin-left: 5.2vw;
+    user-select: none;
+}
+
+.FirstZoneFirstBlockText p{
+    font-size: 0.967vw;
+    margin: 0;
+    line-height: 2.5vmin;
+    letter-spacing: 0.002vw;
+    margin-left: 5.3vw;
+    font-weight: 300;
+    color: black;
+    
+}
+
+.FirstZoneFirstBlockText p a{
+
+    color: black;
+}
+
+.FirstZoneFirstBlockBtn{
+    text-decoration: none;
+
+    color: #FFF;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    width: 18vw;
+    height: 5.4vmin;
+    border-radius: 1vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-left: 5.3vw;
+    font-size: 0.83vw;
+    user-select: none;
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed, #D9D9D9, #D9D9D9, #D9D9D9, #D9D9D9);
+    background-size: 253% 155%;
+    moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.FirstZoneFirstBlockBtn:hover {
+    background-position: 100% 170%;
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed, #D9D9D9, #D9D9D9, #D9D9D9, #D9D9D9);
+    moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    color: #939191;
+}
+
+
+.FirstZoneSecondBlock{
+    background-image: url(../Media/Squares/DexSquare.png);
+    display: grid;
+    background-size: 100% 100%;
+    grid-template-rows: 19vmin 4.8vmin 8vmin 15.98vmin 9vmin;
+    align-items: end;
+}
+
+.FirstZoneSecondBlockTitle h1{
+font-size: 2.58vw;
+    font-weight: 700;
+    margin-left: 2.5vw;
+    letter-spacing: 0.07vw;
+}
+
+.FirstZoneSecondBlockSupply h2{
+    margin-left: 2.5vw;
+    font-weight: 300;
+    font-size: 1.75vw;
+}
+
+.FirstZoneSecondBlockNumber h3{
+  font-size: 3vw;
+    margin-left: 2.67vw;
+    letter-spacing: 0.05vw;  
+    background: rgb(98,161,193);
+background: linear-gradient(90deg, rgba(98,161,193,1) 6%, rgba(41,112,175,1) 47%, rgba(111,209,178,1) 88%);
+    user-select: none;
+    font-family: 'Prompt', sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+
+.FirstZoneSecondBlockList{
+    display: grid;
+    line-height: 4vmin;
+}
+
+.FirstZoneSecondBlockList ul li{
+
+    margin-left: 3.8vw;
+    
+}
+
+.FirstZoneSecondBlockList ul li::marker {
+    font-size: 0.7vw;
+    
+}
+
+
+.liContainer{
+    display: grid;
+    grid-template-columns: 25.6vw 4vw;
+    justify-items: start;
+}
+.FirstLiText{
+    font-size: 1.16vw;
+    font-family: 'Prompt';
+    font-weight: 400;
+}
+
+.SecondLiText{
+    font-size: 1.16vw;
+    font-family: 'Prompt';
+    font-weight: 400;
+}
+
+.DubbleChartWrapper{
+    width: fit-content;
+    margin-left: 2.9vw;
+    display: grid;
+    justify-items: center;
+}
+
+.DubbleChart{
+        width: 29vw;
+        height: 4vmin;
+        user-select: none;
+
+}
+
+.SecondZoneLineWrapper{
+    display: grid;
+    grid-template-columns: 31.3vw 57.6vw;
+    column-gap: 0.8vw;
+    top: 1vmin;
+    position: relative;
+    left: 5vw;
+    color: #FFF;
+}
+
+.SecondZoneLineContainer{
+    display: grid;
+    grid-template-rows: 49.3vmin 23vmin;
+}
+
+.SecondZoneFirstBlock{
+    background-image: url(../Media/Squares/PerlSquare.png);
+    background-size: 100.5% 100%;
+    border-top-right-radius: 3vh;
+    border-top-left-radius: 3vh;
+    margin-left: -0.8vw;
+    display: grid;
+    align-items: end;
+    grid-template-rows: 22.2vmin 1.3vmin 8vmin 13.7vmin;
+}
+.SecondZoneFirstBlock h2{
+    font-size: 3.6vw;
+    line-height: 9.7vmin;
+    font-family: 'Oxanium', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 2.7vw;
+    user-select: none;
+}
+
+.SecondZoneFirstBlock hr{
+    width: 27.2vw;
+    border: 0.1vmin solid #fff;
+    margin: 0;
+    margin-left: 2.4vw;
+}
+
+.SecondZoneFirstBlock p{
+    font-size: 1.04vw;
+    margin: 0;
+    margin-left: 2.8vw;
+    line-height: 2.6vmin;
+}
+
+.SecondZoneFirstBlock h3{
+    font-size: 2.2vw;
+    margin-left: 2.6vw;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+.SecondZoneSecondBlock{
+    background-image: url(../Media/Squares/GreenSquare.png);
+    background-size: 100% 100%;
+    margin-top: -3vmin;
+    margin-left: -0.5vw;
+    border-radius: 2vh;
+    
+
+}
+
+.SecondZoneSecondBlock h3{
+    font-size: 2.2vw;
+    margin-top: 3.4vmin;
+    margin-left: 2.4vw;
+    user-select: none;
+}
+
+.SecondZoneSecondBlock p{
+    font-size: 1.04vw;
+    margin: 0;
+    margin-left: 2.7vw;
+    margin-top: 0.96vmin;
+    line-height: 2.6vmin;
+}
+
+
+
+
+
+
+
+
+.SecondZoneThirdBlock{
+    background-color: #E6E9E8;
+    display: grid;
+    border-radius: 1vmin;
+    margin-top: 1vmin;
+    grid-template-rows: 12.8vmin 2.5vmin 51vmin 8vmin;
+    align-items: end;
+    justify-items: start;
+    color: #505050;
+    height: 70.5vmin;
+}
+
+.SecondZoneThirdBlock h2{
+    font-size: 3.6vw;
+    letter-spacing: 0.14vw;
+    font-family: 'Oxanium', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    user-select: none;
+    margin-left: 5vw;
+}
+
+.SecondZoneThirdBlock hr{
+    width: 46.6vw;
+    border: 0.1vmin solid #505050;
+    margin: 0;
+    margin-left: 4.8vw;
+    height: 0;
+}
+
+.FeeWrapper{
+    display: grid;
+    justify-items: start;
+    grid-template-columns: 30vw 25vw;
+}
+
+.FeeContainer{
+    display: grid;
+    grid-template-rows: 4vmin 3vmin 23.6vmin 15vmin 2vmin;
+    align-items: end;
+    width: 27vw;
+}
+
+.FeeContainer h3{
+    font-size: 1.83vw;
+    font-weight: 500;
+    margin-left: 4.89vw;
+}
+
+
+
+
+
+.FeeContainer h4{
+    font-weight: 200;
+    font-size: 1.3vw;
+    margin-left: 4.89vw;
+}
+
+.FeeCharts{
+    margin-left: 6.8vw;
+    display: grid;
+    height: 23vmin;
+    align-content: center;
+    align-items: center;
+}
+
+.FeeCharts{
+    margin-left: 6.8vw;
+    width: 16vw;
+    height: 23vmin;
+}
+
+.FeeCharts img{
+    width: 16vw;
+    user-select: none;
+}
+
+.FeeInfoContainer{
+    border: 0.1vmin solid #000000;
+    width: 20.6vw;
+    margin-left: 4.5vw;
+    display: grid;
+    grid-template-rows: 4vmin 1vmin 3.5vmin 2.6vmin 2vmin;
+    align-items: end;
+    border-radius: 1vmin;
+}
+.SecondFeeInfoContainer{
+margin-left: 1vw;
+}
+
+
+.SpanFeeBlock{
+    display: grid;
+    grid-template-columns: 12vw 7.3vw;
+    margin-top: 1.6vmin;
+}
+
+.SpanFeeBlock span:nth-child(1){
+    margin-left: 1.6vw;
+    font-weight: 400;
+    font-size: 0.94vw;
+}
+.SpanFeeBlock span:nth-child(2){
+    font-weight: 400;
+    font-size: 0.94vw;
+    display: grid;
+    justify-items: end;
+}
+
+.FeeInfoContainer hr{
+    width: 17.6vw;
+    border: 0.1vmin solid #505050;
+    margin-left: 1.7vw;
+    height: 0;
+}
+
+.SecondFeeContainer h3{
+    margin-left: 1.3vw;
+}
+
+.SecondFeeContainer h4{
+    margin-left: 1.3vw;
+}
+
+.SecondFeeCharts{
+    margin-left: 5vw;
+}
+
+.SecondFeeCharts img{
+    width: 12vw;
+}
+
+
+
+
+
+
+
+.FeeDistributionBlock{
+    background:  rgba(0, 0, 0, 0.2);
+    background-size: 100% 100%;
+    position: relative;
+    left: 5vw;
+    grid-template-rows: 22vmin 68vmin 3vmin;
+    display: grid;
+    align-items: end;
+    height: 98vmin;
+    border-radius: 1.5vmin;
+}
+
+
+
+.FeeDistributionBlock h2{
+
+  font-size: 3.6vw;
+letter-spacing: 0.14vw;
+font-family: 'Oxanium', cursive;
+font-weight: 400;
+text-transform: uppercase;
+color: #fff;
+user-select: none;
+margin-top: 8vmin;
+    margin-left: 2.6vw;
+    margin-bottom: 6vmin;
+}  
+
+
+
+
+
+
+.FeeDistributionBlock hr{
+    width: 83.67vw;
+    border: 0.1vmin solid #FFF;
+    margin: 0;
+    margin-left: 2.5vw;
+    height: 0;
+
+}
+
+.DistributionDiagramBlock{
+    display: grid;
+    text-align: center;
+    grid-template-rows: 12vmin 31vmin 23vmin;
+    align-items: center;
+    justify-content: start;
+    width: 31vw;
+}
+.DistributionFirstTitle{
+    margin-left: 0.4vw;
+    line-height: 4.5vmin;
+}
+
+.DistributionSecondTitle h3{
+    margin-left: -3.1vw;
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+}
+
+
+.DistributionDiagramBlock h3{
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+    }
+
+
+.DistributionDiagramBlock p{
+    font-size: 1.04vw;
+    line-height: 4.8vmin;
+    font-weight: 400;
+    margin: 0;
+    text-align: start;
+    margin-left: 5vw;
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+        }
+
+.DistributionDiagramBlocks{
+    display: grid;
+    grid-template-columns: 31vw 30.7vw 27.7vw 0vw;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    }
+
+.DistributionDiagramBlockImage img{
+    width: 18vw;
+    margin-left: -0.8vw ;
+    margin-top: 2.1vmin;
+}
+
+.SecondDiagram img{
+    margin-left: -2.8vw;
+}
+
+
+
+.DistributionFirstDiagramText{
+    margin-top: 4vmin;
+    line-height: 5vmin;
+    font-family: 'Prompt', sans-serif;
+}
+
+.DistributionSecondDiagramText{
+    margin-top: -1vmin;
+    margin-left: -1.3vw;
+    line-height: 5vmin;
+    font-family: 'Prompt', sans-serif;
+}
+
+.DistributionThirdDiagramText{
+    margin-top: -6vmin;
+    margin-left: -0.5vw;
+    line-height: 5vmin;
+    font-family: 'Prompt', sans-serif;
+}
+
+.BlueSquare{
+    position: absolute;
+    z-index: -1;
+    top: 33vmin;
+    left: -7vw;
+    filter: blur(8vmin);
+    width: 70vmin;
+    animation: BlueSquareAnimation 10s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes BlueSquareAnimation {
+  0% {
+    top: 33vmin;
+    scale: 0.9;
+  }
+  50% {
+    top: 3vmin;
+    scale: 1;
+  }
+  100%{
+    top: 33vmin;
+    scale: 0.9;
+  }
+}
+
+.GreenSquare{
+    position: absolute;
+    z-index: -1;
+    top: 11vmin;
+    right: 5vw;
+    filter: blur(8vmin);
+    width: 51vmin;
+    animation: GreenSquareAnimation 10s infinite;
+}
+
+@keyframes GreenSquareAnimation {
+  0% {
+    top: 11vmin;
+    scale: 0.8;
+  }
+  50% {
+    top: 56vmin;
+    scale: 1;
+  }
+  100%{
+    top: 11vmin;
+    scale: 0.8;
+  }
+}
+
+.TokenomicSocialBlock{
+    position: relative;
+    left: 7.4vw;
+    height: fit-content;
+}
+
+
+.CopyrightBlock{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.CopyrightBlock h5{
+    font-size: 0.85vw;
+    font-family: 'Oxanium', cursive;
+    font-weight: 400;
+}
+

@@ -1,0 +1,60 @@
+
+.SaleStartedBlock{
+    display: grid;
+    background-color: #E6E9E8;
+    justify-items: center;
+    width: 30.8vw;
+    position: relative;
+    left: 3.3vw;
+    top: 5.5vh;
+    grid-template-rows: 44vmin 5vmin 6vmin;
+    height: 55vmin;
+    margin: 0;
+    border-radius: 1.22vh;
+    
+}
+
+.SaleStartedInfo{
+    display: grid;
+    align-items: center;
+    justify-items: start;
+    width: 21vw;
+    grid-template-rows: 18vmin 19.5vmin 7vmin;
+}
+
+.SaleStartedInfo h2{
+    font-size: 2vw;
+}
+
+.SaleStartedInfo ul{
+    margin: 0;
+    padding: 0;
+    width: 24vw;
+}
+
+.SaleStartedInfo li{
+    font-size: 1.28vw;
+    font-weight: 300;
+    padding-bottom: 1.5vmin;
+    line-height: 3.2vmin;
+}
+
+.SaleStartedBtn{
+    width: 11vw;
+    outline: none;
+    background-color: #565454;
+    color: #79CE96;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 800;
+    font-size: 1.14vw;
+    border-radius: 1vmin;
+    border: #565454 solid 0.1vmin;
+    transition: all .3s;
+}
+
+.SaleStartedBtn:hover{
+    border: #565454 solid 0.1vmin;
+    background-color: #E6E9E8;
+    cursor: pointer;
+}
+

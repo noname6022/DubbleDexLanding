@@ -1,0 +1,237 @@
+.MainContainer{
+    animation: TextAppearing 1s forwards;
+    position: relative;
+    user-select: none;
+    
+}
+
+  @keyframes TextAppearing {
+    from {
+        bottom: 89vh;
+        
+    user-select: none;
+    }
+    to {
+        
+        user-select: text;
+        bottom: 0vh;
+    }
+  }
+
+
+
+
+.MainTitleContainer{
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 12.9vw;
+    top: 2vh;
+}
+
+.MainTitleContainer h1{
+    font-size: 4vw;
+    font-family: 'Oxanium', cursive;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -0.1vw;
+    line-height: 9.55vmin;
+}
+
+.Torus{
+    position: fixed;
+    left: -77vmin;
+    top: 11.7vmin;
+    width: 71vmin;
+    height: 82vmin;
+    user-select: none;
+    animation: TorusAppearing 1s forwards;
+    animation-delay: 0.5s;
+}  
+.Wave{
+    position: fixed;
+    right: -47vw;
+    top: 16vh;
+    width: 64vmin;
+    height: 51vmin;
+    user-select: none;
+    animation: WaveAppearing 1s forwards;
+    animation-delay: 0.5s;
+}
+
+  @keyframes TorusAppearing {
+    from {
+        
+        position: fixed;
+        left: -77vmin;
+    }
+    to {
+        position: fixed;
+        left: -44vmin;
+    }
+  }
+
+  @keyframes WaveAppearing {
+    from {
+        opacity: 0;
+        right: -47vw;
+    }
+    to {
+        opacity: 1;
+        right: 6vw;
+    }
+  }
+.MainParagraphSection{
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 13.02vw;
+    top: 3.7vh;
+}
+
+.MainParagraphSection p{
+    
+    font-size: 1.03vw;
+    margin: 0;
+    line-height: 2.56vmin;
+    letter-spacing: 0.004vw;
+
+}
+
+.MainParagraphSection p b{
+    font-weight: 500;
+}
+
+.InfoBlocksWrapper{
+    display: grid;
+    height: 39.5vmin;
+    grid-template-columns: 21.8vw 21.8vw 21.8vw;
+    width: fit-content;
+    left: 29.7vw;
+    top: 6.2vh;
+    position: relative;
+}
+
+.InfoBlocks{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    user-select: none;
+}
+
+.InfoBlocksContainer{
+    display: grid;
+    height: 26vmin;
+    background: #E6E9E8;
+    align-items: start;
+    width: 21vw;
+    align-content: center;
+    grid-template-rows: 17vmin 4vmin 0vmin 0vmin;
+    border-radius: 1.3vh;
+    transition: all .3s;
+    user-select: none;
+}
+
+.InfoBlocksContainer:hover {
+    display: grid;
+    height: 38.6vmin;
+    background: #79CE96;
+    align-items: start;
+    width: 21vw;
+    align-content: center;
+    grid-template-rows: 17vmin 4vmin 10.6vmin 2vmin;
+    border-radius: 1.3vh;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+
+
+
+
+.InfoBlockFirstImage{
+    display: grid;
+    justify-items: center;
+    margin-right: 0vw;
+    margin-top: 0.5vh;
+}
+
+.SecondInfoBlockImage{
+    margin-right: 0;
+}
+
+.ThirdInfoBlockImage{
+    margin-left: 0.7vw;
+    margin-right: 0;
+}
+
+.PotImage{
+    width: 10vmin;
+    height: 15vmin;
+    user-select: none;
+}
+
+.BallImage{
+    width: 15vmin;
+    height: 15vmin; 
+    user-select: none; 
+}
+
+.DexIcon{
+    width: 15vmin;
+    height: 14.5vmin;
+    user-select: none;
+}
+
+.InfoBlocksContainer h3{
+    font-size: 0.95vw;
+    font-weight: 500;
+    margin-left: 0.55vw;
+}
+
+.InfoBlocksContainer p{
+    display: none;
+    font-size: 0.79vw;
+    margin: 0;
+    margin-top: 1vh;
+    line-height: 2.46vmin;
+    margin-left: 0.5vw;
+    font-weight: 400;
+    color: #505050; 
+    transition: all .4s;
+}
+
+.InfoText{
+    margin-top: -0.2vh;
+    margin-left: -0.5vw;
+ display: grid;  
+    
+  
+}
+
+.InfoBlocksContainer:hover p{
+    display: grid;
+    animation: fade-in 0.7s forwards;
+
+}
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .MainSocialWrapper{
+    display: grid;
+    width: fit-content;
+    position: relative;
+    left: 6.7vw;
+    top: -3vh;
+  }
+
+
