@@ -120,13 +120,12 @@
     letter-spacing: 0.002vw;
     margin-left: 5.3vw;
     font-weight: 300;
-    color: black;
+    color: #505050;
     
 }
 
 .FirstZoneFirstBlockText p a{
-
-    color: black;
+    color: #505050;
 }
 
 .FirstZoneFirstBlockBtn{
