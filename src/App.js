@@ -27,7 +27,7 @@ return (
 
 </div>
 <div>
-<a className='HeaderLinkStyle' href='https://www.dubbledex.com' target="_blank"><img className="DocsIconStyle"  src={DocsIcon} alt='DocsIcon'/><span className='SpanLink '>Docs</span></a>
+<a className='HeaderLinkStyle' href='https://dubble-dex.gitbook.io/docs/' target="_blank"><img className="DocsIconStyle"  src={DocsIcon} alt='DocsIcon'/><span className='SpanLink '>Docs</span></a>
 </div>
 <div className='ButtonAndLinkDiv'>
 <Link to="/Tokenomics" className='HeaderLinkTokenomicStyle'><img className="TokenomicIconStyle" src={TokenomicIcon} alt='TokenomicIcon'/><span className='SpanLink'>Tokenomic</span></Link>
