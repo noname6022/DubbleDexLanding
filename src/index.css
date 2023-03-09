@@ -77,3 +77,14 @@ ul, li{
     opacity: 1;
   }
 }
+
+
+@media (max-width: 600px) {
+  .App{
+    grid-template-rows: 16vh 64vh 20vh;
+  }
+
+  .no-scroll{
+    overflow: hidden;
+}
+}

@@ -33,3 +33,11 @@ width: 3vw;
 .DisableSocialIcon img:hover{
     filter: none;
 }
+
+@media (max-width: 600px){
+    .SocialContainer {
+
+        grid-template-columns: 6.3vw 5vw 6vw;
+
+    }
+}

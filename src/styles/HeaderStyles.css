@@ -10,6 +10,12 @@
     user-select: none;
 }
 
+.HeaderLinksWrapper{
+    display: grid;
+    grid-template-columns: 11.8vw 11.8vw 12vw;
+    width: fit-content;
+}
+
 .LogoStyles{
     width: 9.57vw;
     height: 4vh;
@@ -177,4 +183,118 @@ margin-top: 0.57vmin;
 .DisabledSpan{
     
     filter: contrast(0.47);
+}
+
+.MobileHeader{
+    display: none;
+}
+
+/*Mobile version*/
+
+@media (max-width: 600px) {   
+     .HeaderContainer {
+        grid-template-columns: none;
+        left: 32.5vw;
+        position: relative;
+        top: 4.5vh;
+
+    }
+    .MobileHeader{
+        display: flex;
+        position: absolute;
+        top: 6vh;
+        right: 12vw;
+        height: 4vh;
+        width: 2vw;
+    }
+
+    .MobileHeaderBurgerBtn {
+        filter: contrast(0.1);
+        transition: all .4s;
+        width: 2vw;
+        height: 2vh;
+        scale: 3;
+
+    }
+    .MobileHeaderBurgerBtn:hover{
+        filter: contrast(20);
+
+    }
+
+    .HomeLinkBtn{
+        display: none;
+    }
+    .HeaderLinksWrapper{
+        display: none;
+    }
+
+    .LogoStyles {
+        height: 6vh;
+        width: 33.57vw;
+    }
+
+    
+/*Burger Menu*/
+.BurgerMenuBlock{
+    background-image: url(../Media/DuubleBg.png);
+    
+    width: 100vw;
+    position: absolute;
+    z-index: 9;
+    height: max-content;
+    width: 100%;
+    animation: none;
+}
+
+.BurgerMenuItems{
+    display: grid;
+    justify-items: center;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 45vmin 13vmin 13vmin 14vmin 229vmin;
+    align-items: end;
+}
+
+.BurgerMenuLogo{
+    top: 4.5vh;
+    left: 32.5vw;
+    position: absolute;
+}
+
+.HeaderLinkStyle{
+    font-size: 2.9vw;
+    color: #565454;
+    display: grid;
+    height: 9.6vmin;
+    width: 50.2vw;
+    border-radius: 1.1vmin;
+    justify-items: center;
+    grid-template-columns: 5.5vw 17.1vw;
+}
+
+.HomeIcon {
+    width: 5.7vw;
+    height: 3vh;
+}
+
+.DocsIconStyle {
+    width: 5.6vw;
+    height: 2.7vh;
+}
+
+.TokenomicIconStyle {
+    width: 6vw;
+    height: 3vh;
+}
+
+.LaunchpadIconStyle {
+    width: 5vw;
+    height: 3vh;
+}
+
+.DisabledLink{
+    grid-template-columns: 7vw 19.5vw !important;
+}
+
+
 }

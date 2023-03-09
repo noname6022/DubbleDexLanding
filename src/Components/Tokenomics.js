@@ -14,12 +14,14 @@ import DistributionFirstDiagram from '../Media/DistributionFirstDiagram.png';
 import DistributionSecondDiagram from '../Media/DistributionSecondDiagram.png';
 import DistributionThirdDiagram from '../Media/DistributionThirdDiagram.png';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-
+import MediaQuery from 'react-responsive'
 
 export const Tokenomics = () => {
   return (
   <>
+  <MediaQuery minWidth={600}>
     <Link to="/" className='HeaderLinkStyle HomeLinkBtn'> <img className="HomeIcon" src={HomeIcon} alt="home"/><span>Home</span></Link>
+    </MediaQuery>
     <section className='TokenomicsWrapper AppearingAnimation'>
        
       <div className='FirstZoneLineContainer'>
@@ -33,13 +35,13 @@ export const Tokenomics = () => {
           Dubble Dex is almost ready for its official launch! We are now at<br/>
            a stage where we can release the official tokenomics in a<br/>
             simplified list format. For a more detailed explanation of these<br/>
-             numbers, please refer to the Dubble Dex <a href='https://www.dubbledex.com' target="_blank">documentation.</a>
+             numbers, please refer to the Dubble Dex <a href='https://dubble-dex.gitbook.io/docs/' target="_blank">documentation.</a>
           </p>
           <img src={OilSquare} alt="square"  className="OilSquare"/>
           <img src={lightblueSquare}  alt="square" className="lightblueSquare"/>
           <img src={PinkSquare}  alt="square"  className="PinkSquare"/>
          </div>
-         <a className='FirstZoneFirstBlockBtn' href='https://www.dubbledex.com' target="_blank">Learn More</a>
+         <a className='FirstZoneFirstBlockBtn' href='https://dubble-dex.gitbook.io/docs/' target="_blank">Learn More</a>
          </div>
          <div className='FirstZoneSecondBlock'>
           <div className='FirstZoneSecondBlockTitle'><h1>Dubble Token</h1></div>

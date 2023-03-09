@@ -236,3 +236,125 @@
   }
 
 
+
+
+  @media (max-width:600px){
+    .Torus {
+        position: absolute !important;
+        left: -160vw;
+        top: 12.4vmin;
+        width: 53vmin;
+        height: 74vmin;
+        animation: TorusAppearingMobile 1s forwards;
+        animation-delay: 0.5s;
+    }
+    
+    .Wave {
+        position: absolute;
+    right: -120vw ;
+    top: 48vmin;
+    width: 56vmin;
+    height: 41vmin;
+    animation: WaveAppearingMobile 1s forwards;
+    animation-delay: 0.5s;
+}
+
+    @keyframes TorusAppearingMobile {
+        from {
+            
+            position: absolute;
+            left: -160vw;
+        }
+        to {
+            position: absolute;
+            left: -35vmin;
+        }
+      }
+
+      @keyframes WaveAppearingMobile {
+        from {
+            opacity: 0;
+            right: -120vw;
+        }
+        to {
+            opacity: 1;
+            right: 2vw;
+        }
+      }
+
+      .MainTitleContainer {
+        left: 12.9vw;
+        top: 2vh;
+    
+  }
+
+  .MainTitleContainer h1 {
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: -0.1vw;
+    line-height: 9.55vmin;
+}
+
+.MainParagraphSection {
+
+    left: 13.02vw;
+    top: 3.7vh;
+}
+
+.MainParagraphSection p {
+    font-size: 3.5vw;
+    margin: 0;
+    line-height: 4.56vmin;
+    letter-spacing: 0.004vw;
+}
+
+.InfoBlocksWrapper {
+    height: 39.5vmin;
+    grid-template-columns: 29.8vw 29.8vw 29.8vw;
+    left: 5vw;
+    top: 20.2vh;
+    position: relative;
+
+}
+
+.InfoBlocksContainer{
+    height: 33vmin;
+    width: 27vw;
+}
+
+.InfoBlocksContainer:hover {
+    display: grid;
+    height: 50vmin;
+    width: 27vw;
+    grid-template-rows: 17vmin 3.4vmin 15vmin 2vmin;
+    border-radius: 1.3vh;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+
+.InfoBlocksContainer h3 {
+    font-size: 2vw;
+    font-weight: 500;
+    margin-left: 0.55vw;
+    color: #343333;
+}
+
+.InfoBlocksContainer p{
+    font-size: 1.7vw;
+}
+
+.MainSocialWrapper {
+    left: 14vw;
+    top: 30vh;
+    scale: 2.4;
+}
+
+.InfoBlockFirstImage{
+    margin-top: 0;
+    margin-left: 0.5vw !important;
+}
+
+
+
+  }
