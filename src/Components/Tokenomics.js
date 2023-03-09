@@ -57,7 +57,7 @@ export const Tokenomics = () => {
                 </li>
               <li>
                 <div className='liContainer'>
-                <span className='FirstLiText'>Protocol Fee ( linearly vested over 1 year)</span>
+                <span className='FirstLiText'>Protocol Fee (linearly vested over 1 year)</span>
                 <span className='SecondLiText'>20%</span>
                 </div>
                 </li>
