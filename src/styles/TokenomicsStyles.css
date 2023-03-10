@@ -164,11 +164,12 @@
 
 
 .FirstZoneSecondBlock{
-    background-image: url(../Media/Squares/DexSquare.png);
+    background-image: url(../Media/Squares/DexSquare.jpg);
     display: grid;
-    background-size: 100% 100%;
+    background-size: 100.15% 100%;
     grid-template-rows: 19vmin 4.8vmin 8vmin 15.98vmin 9vmin;
     align-items: end;
+    border-radius: 2vh;
 }
 
 .FirstZoneSecondBlockTitle h1{
@@ -673,7 +674,7 @@ margin-top: 8vmin;
 
 @media (max-width: 600px) {
     .TokenomicsWrapper {
-        grid-template-rows: 150vmin 161vmin 115vmin 13vmin 6vmin;
+        grid-template-rows: 153vmin 158vmin 115vmin 13vmin 6vmin;
     }
 
     .FirstZoneLineContainer {
@@ -745,7 +746,7 @@ margin-top: 8vmin;
     }
 
     .FirstZoneSecondBlock {
-        background-size: 100% 123%;
+        background-size: 100.15% 100%;
         grid-template-rows: 24vmin 6.8vmin 12vmin 16.98vmin 11vmin;
         align-items: end;
         border-radius: 1vh;
@@ -1005,6 +1006,7 @@ margin-top: 8vmin;
     height: 107vmin;
     border-radius: 1.5vmin;
     width: 89.6vw;
+    margin-top: 3vmin;
 }
 
 .FeeDistributionBlock h2 {

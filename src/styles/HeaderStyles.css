@@ -236,8 +236,8 @@ margin-top: 0.57vmin;
     
 /*Burger Menu*/
 .BurgerMenuBlock{
-    background-image: url(../Media/DuubleBg.png);
-    
+    background-image: url(../Media/DuubleBg.jpg);
+    background-size: cover;
     width: 100vw;
     position: absolute;
     z-index: 9;
