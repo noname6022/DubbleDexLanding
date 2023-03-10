@@ -571,13 +571,11 @@ margin-top: 8vmin;
 
 .DistributionDiagramBlockImage img{
     width: 18vw;
-    margin-left: -0.8vw ;
+    margin-left: 0.2vw ;
     margin-top: 2.1vmin;
 }
 
-.SecondDiagram img{
-    margin-left: -2.8vw;
-}
+
 
 
 
@@ -673,3 +671,454 @@ margin-top: 8vmin;
     font-weight: 400;
 }
 
+@media (max-width: 600px) {
+    .TokenomicsWrapper {
+        grid-template-rows: 150vmin 161vmin 115vmin 13vmin 6vmin;
+    }
+
+    .FirstZoneLineContainer {
+        display: grid;
+        grid-template-columns: none;
+        column-gap: 0;
+        row-gap: 2.8vw;
+        grid-template-rows: 67vmin 81vmin;
+        width: 90vw;
+        position: relative;
+        left: 5vw;
+    }
+
+    .FirstZoneFirstBlock {
+        left: 0;
+        align-items: end;
+        grid-template-rows: 34vmin 17vmin 10vmin;
+        border-radius: 1vh;
+        width: 90vw;
+    }
+
+    .FirstZoneFirstBlockTitle h1 {
+        font-size: 8vw;
+        letter-spacing: -0.1vw;
+        line-height: 9.6vmin;
+        user-select: none;
+    }
+
+    .FirstZoneFirstBlockText p {
+        font-size: 2.3vw;
+        line-height: 3.5vmin;
+        letter-spacing: 0.002vw;
+        font-weight: 300;
+        color: #505050;
+    }
+
+    .FirstZoneFirstBlockBtn {
+        text-decoration: none;
+        font-family: 'Prompt', sans-serif;
+        font-weight: 600;
+        width: 28vw;
+        height: 7.4vmin;
+        border-radius: 0.7vh;
+        display: grid;
+        font-size: 2.83vw;
+    }
+
+ .OilSquare {
+        top: 4vmin;
+        left: 21vw;
+        filter: blur(9.2vw);
+        width: 49vw;
+        height: 30vmin;
+    }
+    .lightblueSquare {
+        top: 34vmin;
+        left: 6vw;
+        filter: blur(8.2vw);
+        width: 43vw;
+        height: 29vmin;
+    }
+
+    .PinkSquare {
+        top: 35vmin;
+        left: 61vw;
+        filter: blur(5.2vw);
+        width: 23vw;
+        height: 30vmin;
+    }
+
+    .FirstZoneSecondBlock {
+        background-size: 100% 123%;
+        grid-template-rows: 24vmin 6.8vmin 12vmin 16.98vmin 11vmin;
+        align-items: end;
+        border-radius: 1vh;
+    }
+
+    .FirstZoneSecondBlockTitle h1 {
+        font-size: 6.58vw;
+        font-weight: 700;
+        margin-left: 4.5vw;
+        letter-spacing: 0.07vw;
+    }
+
+    .FirstZoneSecondBlockSupply h2 {
+        margin-left: 4.5vw;
+        font-weight: 300;
+        font-size: 3.75vw;
+    }
+
+    .FirstZoneSecondBlockNumber h3 {
+        font-size: 8vw;
+        margin-left: 4.67vw;
+    }
+
+    .FirstZoneSecondBlockList {
+        display: grid;
+        line-height: 6vmin;
+    }
+    .FirstZoneSecondBlockList ul li {
+        margin-left: 8.8vw;
+    }
+    .FirstZoneSecondBlockList ul li::marker {
+        font-size: 2.7vw;
+    }
+
+    .liContainer {
+        display: grid;
+        grid-template-columns: 69.6vw 10vw;
+        justify-items: start;
+    }
+
+    .FirstLiText {
+        font-size: 3.16vw;
+        font-family: 'Prompt';
+        font-weight: 400;
+    }
+
+    .SecondLiText {
+        font-size: 3.16vw;
+        font-family: 'Prompt';
+        font-weight: 400;
+    }
+
+    .DubbleChartWrapper {
+        margin-left: 4.5vw;
+    }
+
+    .DubbleChart {
+        width: 81vw;
+        height: 6vmin;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    .SecondZoneLineContainer {
+        display: grid;
+        grid-template-rows: 54.3vmin 27vmin;
+    }
+
+    .SecondZoneFirstBlock {
+        background-size: 100.5% 100%;
+        border-top-right-radius: 1vh;
+        border-top-left-radius: 1vh;
+        margin-left: -0.8vw;
+        display: grid;
+        align-items: end;
+        grid-template-rows: 19.2vmin 2.3vmin 9vmin 17.7vmin;
+    }
+
+    .SecondZoneLineWrapper {
+        display: grid;
+        grid-template-columns: none;
+        column-gap: 0;
+        top: 1vmin;
+        position: relative;
+        left: 4vw;
+        color: #FFF;
+        width: 92vw;
+}
+
+.DubbleDexTreasuryTitle {
+    font-size: 6.6vw;
+    line-height: 9.7vmin;
+    font-family: 'Oxanium', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 6.7vw;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.SecondZoneFirstBlock hr {
+    width: 79.7vw;
+    border: 0.1vmin solid #fff;
+    margin: 0;
+    margin-left: 7vw;
+}
+
+.SecondZoneSecondBlock {
+    margin-top: -5vmin;
+    margin-left: 0vw;
+    border-radius: 2vh;
+}
+
+.InvestmentTreasuryTitle {
+    font-size: 4.2vw;
+    margin-left: 6.6vw;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.InvestmentTreasuryParagraph {
+    font-size: 2vw;
+    margin: 0;
+    margin-left: 6.8vw;
+    line-height: 3.4vmin;
+}
+
+.SustainmentTreasuryTitle {
+    font-size: 4.2vw;
+    margin-top: 3.4vmin;
+    margin-left: 6.6vw;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.SustainmentTreasuryParagraph {
+    margin: 0;
+    margin-left: 6.7vw;
+    margin-top: 0.96vmin;
+    font-size: 2vw;
+    line-height: 3.4vmin;
+}
+.SecondZoneThirdBlock{
+    position: relative;
+    left: 1.2vw;
+    width: 89.5vw;
+
+}
+
+.SecondZoneThirdBlock h2 {
+    font-size: 5.7vw;
+    letter-spacing: 0.14vw;
+    font-family: 'Oxanium', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 5vw;
+}
+
+.SecondZoneThirdBlock hr {
+    width: 79.6vw;
+    border: 0.1vmin solid #505050;
+    margin: 0;
+    margin-left: 4.8vw;
+    height: 0;
+}
+.FeeWrapper {
+    display: grid;
+    justify-items: start;
+    grid-template-columns: 44vw 43vw;
+}
+
+.FeeContainer {
+    display: grid;
+    grid-template-rows: 4vmin 3vmin 23.6vmin 15vmin 2vmin;
+    align-items: end;
+    width: unset;
+}
+
+.FeeContainer h3 {
+    font-size: 2.83vw;
+    font-weight: 500;
+    margin-left: 4.89vw;
+}
+
+.FeeContainer h4 {
+    font-weight: 200;
+    font-size: 2.3vw;
+    margin-left: 4.89vw;
+}
+
+.FeeCharts {
+    margin-left: 6.8vw;
+    width: 25vw;
+    height: 23vmin;
+}
+
+.FeeCharts img {
+    width: 23vw;
+}
+
+.DistributionDiagramBlockImage img {
+    width: 23vw;
+    margin-left: -0.8vw;
+    margin-top: 2.1vmin;
+}
+
+.FeeInfoContainer {
+    border: 0.1vmin solid #000000;
+    width: 27.6vw;
+    margin-left: 4.5vw;
+    display: grid;
+    grid-template-rows: 4vmin 1vmin 3.5vmin 2.6vmin 2vmin;
+    align-items: end;
+    border-radius: 1vmin;
+}
+
+.FeeInfoContainer hr {
+    width: 23.6vw !important;
+    border: 0.1vmin solid #505050;
+    margin-left: 1.7vw;
+    height: 0;
+}
+
+.SecondFeeInfoContainer {
+    margin-left: 5.7vw;
+}
+
+.SpanFeeBlock {
+    display: grid;
+    grid-template-columns: 20vw 6.3vw;
+    margin-top: 1.6vmin;
+}
+
+.SpanFeeBlock span:nth-child(1) {
+    margin-left: 2vw;
+    font-weight: 400;
+    font-size: 1.6vw;
+}
+
+.SpanFeeBlock span:nth-child(2) {
+    font-weight: 400;
+    font-size: 1.6vw;
+    display: grid;
+    justify-items: end;
+}
+
+.FeeDistributionBlock {
+    background: rgba(0, 0, 0, 0.2);
+    background-size: 100% 100%;
+    position: relative;
+    left: 5vw;
+    grid-template-rows: 22vmin 80vmin 5vmin;
+    display: grid;
+    align-items: end;
+    height: 107vmin;
+    border-radius: 1.5vmin;
+    width: 89.6vw;
+}
+
+.FeeDistributionBlock h2 {
+    font-size: 5.2vw;
+    letter-spacing: 0.14vw;
+    font-family: 'Oxanium', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-top: 8vmin;
+    margin-left: 5.1vw;
+    margin-bottom: 5vmin;
+}
+
+.FeeDistributionBlock hr {
+    width: 80vw;
+    border: 0.1vmin solid #FFF;
+    margin: 0;
+    margin-left: 4.8vw;
+    height: 0;
+}
+
+.DistributionDiagramBlocks {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 18vmin 35vmin 20vmin;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: fit-content;
+}
+
+.DistributionDiagramBlock {
+    display: grid;
+    text-align: center;
+    grid-template-rows: none;
+    grid-template-columns: 24vw 27vw 35vw;
+    align-items: center;
+    justify-content: start;
+    width: fit-content;
+}
+
+.DistributionFirstTitle {
+    margin-left: 5.2vw;
+    line-height: 4.5vmin;
+}
+.DistributionDiagramBlock h3 {
+    font-size: 2.5vw;
+    line-height: 3.4vmin;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+    width: fit-content;
+    margin-right: 0;
+}
+
+.DistributionFirstDiagramText {
+    margin-top: 1vmin;
+    line-height: 5vmin;
+    font-family: 'Prompt', sans-serif;
+}
+
+.DistributionDiagramBlock p {
+    font-size: 2.2vw;
+    line-height: 3vmin;
+    font-weight: 400;
+    margin: 0;
+    text-align: start;
+    margin-left: 5vw;
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+    width: 34vw;
+    margin: 0;
+}
+
+.DistributionSecondandThirdTitleCenter{
+    display: grid;
+    justify-items: center;
+    width: 26vw;
+}
+
+.DistributionThirdDiagramText {
+     margin-top: 0; 
+}
+
+.BlueSquare {
+    left: -20vw;
+}
+
+.GreenSquare {
+    right: 2vw;
+}
+
+.TokenomicSocialBlock {
+    position: relative;
+    left: 11.4vw;
+    height: -moz-fit-content;
+    height: fit-content;
+    scale: 2;
+}
+
+.CopyrightBlock h5 {
+    font-size: 2.85vw;
+    font-family: 'Oxanium', cursive;
+    font-weight: 400;
+}
+
+.SecondDiagram img{
+    margin-left: -2.8vw;
+}
+
+.CopyrightBlock {
+    width: 100vw;
+}
+}

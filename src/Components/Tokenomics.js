@@ -80,9 +80,12 @@ export const Tokenomics = () => {
           <div className='SecondZoneLineContainer'>
           <div className='SecondZoneFirstBlock'>
             <div>
+              <MediaQuery minWidth={601}>
               <h2 className='DubbleDexTreasuryTitle'>Dubble DEX<br/>
-             Treasury</h2> 
-             
+             Treasury</h2> </MediaQuery>
+             <MediaQuery maxWidth={600}>
+              <h2 className='DubbleDexTreasuryTitle'>Dubble DEX Treasury</h2> 
+              </MediaQuery>
              </div>
              <hr/>
              
@@ -155,34 +158,80 @@ export const Tokenomics = () => {
           <div  className='DistributionDiagramBlocks'>
 
             <div  className='DistributionDiagramBlock'>
-              <div className='DistributionFirstTitle'>
+            <MediaQuery maxWidth={600}>
+               <div className='DistributionFirstTitle'>
+                  
+                <h3>$DUB Rebase<br/> 
+                Distribution<br/>
+                  in Dubble LPs:</h3>
+               </div></MediaQuery>
+
+              <MediaQuery minWidth={601}>
+               <div className='DistributionFirstTitle'>
+                
                 <h3>$DUB Rebase Distribution<br/>
                   in Dubble LPs:</h3>
-               </div>
+               </div></MediaQuery>
+
                <div className='DistributionDiagramBlockImage'><img src={DistributionFirstDiagram} alt="DistributionFirstDiagram"/></div>
+               <MediaQuery minWidth={601}>
                <div className="DistributionFirstDiagramText">
                 <p>65% to liquidity providers as claimable rewards</p>
                 <p>25% auto bribes to the pair</p>
                 <p>5% to $DUB Investment Treasury</p>
                 <p>5% to Sustainment Treasury</p>
                </div>
+               </MediaQuery>
+               <MediaQuery maxWidth={600}>
+               <div className="DistributionFirstDiagramText">
+                <p>65% to liquidity providers as<br/>
+                 claimable rewards</p>
+                <p>25% auto bribes to the pair</p>
+                <p>5% to $DUB Investment<br/>
+                 Treasury</p>
+                <p>5% to Sustainment Treasury</p>
+               </div>
+               </MediaQuery>
             </div>
             <div  className='DistributionDiagramBlock'>
-              <div className='DistributionSecondTitle'><h3>Partner Pools</h3></div>
+              <div className='DistributionSecondandThirdTitleCenter'><h3>Partner Pools</h3></div>
                <div className='DistributionDiagramBlockImage SecondDiagram'><img src={DistributionSecondDiagram} alt="DistributionFirstDiagram"/></div>
+               
+               <MediaQuery minWidth={601}>
                <div className="DistributionSecondDiagramText">
                 <p>65% to veDUBBL holders who voted for the pool</p>
                 <p>25% to partner treasury</p>
                 <p>10% to $DUB Investment Treasury</p>
                </div>
+               </MediaQuery>
+
+               <MediaQuery maxWidth={600}>
+               <div className="DistributionSecondDiagramText">
+                <p>65% to veDUBBL holders who<br/>
+                 voted for the pool</p>
+                <p>25% to partner treasury</p>
+                <p>10% to $DUB Investment<br/>
+                 Treasury</p>
+               </div>
+               </MediaQuery>
             </div>
             <div  className='DistributionDiagramBlock'>
-              <div><h3>Main Pools</h3></div>
+              <div className='DistributionSecondandThirdTitleCenter'><h3>Main Pools</h3></div>
                <div className='DistributionDiagramBlockImage'><img src={DistributionThirdDiagram} alt="DistributionFirstDiagram"/></div>
+               <MediaQuery minWidth={601}>
                <div className="DistributionThirdDiagramText">
                 <p>90% to veDUBBL holders who voted for pool </p>
                 <p>10% to $DUB Investment Treasury</p>
                </div>
+               </MediaQuery> 
+               <MediaQuery maxWidth={600}>
+               <div className="DistributionThirdDiagramText">
+                <p>90% to veDUBBL holders who<br/>
+                 voted for pool </p>
+                <p>10% to $DUB Investment<br/>
+                 Treasury</p>
+               </div>
+               </MediaQuery>
             </div>
           </div> 
           <img src={BlueSquare} alt="square"  className="BlueSquare"/>
