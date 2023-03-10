@@ -164,7 +164,7 @@
 
 
 .FirstZoneSecondBlock{
-    background-image: url(../Media/Squares/DexSquare.jpg);
+    background-image: url(../Media/Squares/DexSquare.webp);
     display: grid;
     background-size: 100.15% 100%;
     grid-template-rows: 19vmin 4.8vmin 8vmin 15.98vmin 9vmin;
@@ -264,7 +264,7 @@ background: linear-gradient(90deg, rgba(98,161,193,1) 6%, rgba(41,112,175,1) 47%
 }
 
 .SecondZoneFirstBlock{
-    background-image: url(../Media/Squares/PerlSquare.png);
+    background-image: url(../Media/Squares/PerlSquare.webp);
     background-size: 100.5% 100%;
     border-top-right-radius: 3vh;
     border-top-left-radius: 3vh;
@@ -311,7 +311,7 @@ background: linear-gradient(90deg, rgba(98,161,193,1) 6%, rgba(41,112,175,1) 47%
 
 
 .SecondZoneSecondBlock{
-    background-image: url(../Media/Squares/GreenSquare.png);
+    background-image: url(../Media/Squares/GreenSquare.webp);
     background-size: 100% 100%;
     margin-top: -3vmin;
     margin-left: -0.5vw;

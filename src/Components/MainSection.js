@@ -1,12 +1,12 @@
 import React from 'react';
 import MediaQuery from 'react-responsive'
 import "../styles/MainStyles.css"
-import TokenPot from "../Media/TokenPot.png"
-import TokenBall from "../Media/TokenBall.png"
-import DubbleDexIcon from '../Media/DubbleDexTokenIcon.png'
+import TokenPot from "../Media/TokenPot.webp"
+import TokenBall from "../Media/TokenBall.webp"
+import DubbleDexIcon from '../Media/DubbleDexTokenIcon.webp'
 import SocialBlock from './SocialBlock'
-import Torus from '../Media/Torus.png'
-import Wave from '../Media/Wave.png'
+import Torus from '../Media/Torus.webp'
+import Wave from '../Media/Wave.webp'
 
 export const MainSection = () => {
 

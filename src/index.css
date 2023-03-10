@@ -48,7 +48,7 @@ ul, li{
 }
 
 .MainBackground{
-  background-image: url(./Media/DuubleBg.jpg);
+  background-image: url(./Media/DuubleBg.webp);
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -83,6 +83,16 @@ ul, li{
 @media (max-width: 600px) {
   .App{
     grid-template-rows: 16vh 64vh 20vh;
+  }
+
+  .MainBackground{
+    background-image: url(./Media/DuubleBg.webp);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    position: fixed;
+    z-index: -1;
   }
 
   .no-scroll{

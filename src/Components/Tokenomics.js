@@ -1,18 +1,18 @@
 import React from 'react'
 import SocialBlock from './SocialBlock'
 import "../styles/TokenomicsStyles.css"
-import OilSquare from '../Media/Squares/OilSquare.png';
-import lightblueSquare from '../Media/Squares/lightBlueSquare.png';
-import PinkSquare from '../Media/Squares/PinkSquare.png';
-import BlueSquare from '../Media/Squares/BlueSquare.png';
-import GreenSquare from '../Media/Squares/GreenSquare.png';
+import OilSquare from '../Media/Squares/OilSquare.webp';
+import lightblueSquare from '../Media/Squares/lightBlueSquare.webp';
+import PinkSquare from '../Media/Squares/PinkSquare.webp';
+import BlueSquare from '../Media/Squares/BlueSquare.webp';
+import GreenSquare from '../Media/Squares/GreenSquare.webp';
 import DubbleChart from '../Media/DubbleTokenChart.svg';
 import HomeIcon from '../Media/HomeIcon.svg';
-import FeesFirstChart from '../Media/FeesFirstChart.png';
-import FeesSecondChart from '../Media/FeesSecondChart.png';
-import DistributionFirstDiagram from '../Media/DistributionFirstDiagram.png';
-import DistributionSecondDiagram from '../Media/DistributionSecondDiagram.png';
-import DistributionThirdDiagram from '../Media/DistributionThirdDiagram.png';
+import FeesFirstChart from '../Media/FeesFirstChart.webp';
+import FeesSecondChart from '../Media/FeesSecondChart.webp';
+import DistributionFirstDiagram from '../Media/DistributionFirstDiagram.webp';
+import DistributionSecondDiagram from '../Media/DistributionSecondDiagram.webp';
+import DistributionThirdDiagram from '../Media/DistributionThirdDiagram.webp';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive'
 

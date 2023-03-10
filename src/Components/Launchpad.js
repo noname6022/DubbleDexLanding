@@ -4,7 +4,7 @@ export const Launchpad = () => {
   return (
     <section className='AppearingAnimation'>
       <div>
-            <SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/><SaleStarted/>
+            <SaleStarted/>
         </div>
     </section>
   )
